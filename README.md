@@ -22,7 +22,7 @@ This project is a _from-scratch implementation_ of a fully functional web page u
 
 ## Features
 
-The outcome should be a pixel-perfect _design replication_ based on the provided ![__designer file__](#https://www.figma.com/design/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?node-id=0-1&p=f&t=ExLZorhTrkHbZzB7-0). <br />
+The outcome should be a pixel-perfect _design replication_ based on the provided [designer file](https://www.figma.com/design/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?node-id=0-1&p=f&t=ExLZorhTrkHbZzB7-0). <br />
 It will incorporate __Responsive layout__ that adapts seamlessly to _different screen sizes_ and devices. It should also include __Accessible components__ to ensure _inclusivity for users with disabilities_. __Semantic HTML__ structure will be used for a _better SEO referencement and readability_.
 
 <br /><br />

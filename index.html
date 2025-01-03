@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <link href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="description" content="A static web page design implementation of a company selling headphones.">
+    <link rel="icon" type="favicon/ico" href="images/favicon.ico">
     <title>Headphones</title>
+    <link rel='stylesheet' href='styles.css'>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="logo-nav">
-            <a href="#"><img src="" alt="logo of Headphones website"></a>
-            <nav>
+            <a href="#"><img src="images/logo_headphones.png" alt="logo of Headphones website"></a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu"><img src="images/menu-hamburger.png" alt="menu hamburger icon"></label>
+            <nav class="navbar">
                 <ul>
-                    <li>what we do</li>
-                    <li>our results</li>
-                    <li>contact us</li>
+                    <li>
+                        <a href="#a11y-what-we-do">what we do</a>
+                    </li>
+                    <li>
+                        <a href="#a11y-our-results">our results</a>
+                    </li>
+                    <li>
+                        <a href="#a11y-contact-us">contact us</a>
+                    </li>
                 </ul>
             </nav>
         </div>
-        <div class="hero">
-            <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-            <span>Lorem ipsum dolor set amet lorem ipsum dolor set</span>
-            <button>CALL TO ACTION</button>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur.
-            </p>
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                <span>Lorem ipsum dolor set amet lorem ipsum dolor set</span>
+                <button>CALL TO ACTION</button>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </p>
+            </div>
         </div>
     </header>
     <main>
-        <section class="What-we-do">
+        <section id="a11y-what-we-do" class="What-we-do" >
             <div class="What-we-do-text">
                 <h1>What we do...</h1>
                 <p>
@@ -45,29 +58,37 @@
                 </p>
             </div>
             <div class="What-we-do-images">
-                <div class="What-we-do-images-1">
-                    <img src="images/sound-frequency.png" alt="sound frequency icon">
+                <div class="What-we-do-images-card">
+                    <div class="what-we-do-img-container">
+                        <img class="What-we-do-images-1" src="images/sound-frequency.png" alt="sound frequency icon">
+                    </div>
                     <span>Lorem ipsum</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="What-we-do-images-2">
-                    <img src="images/video.png" alt="video player icon">
+                <div class="What-we-do-images-card">
+                    <div class="what-we-do-img-container">
+                        <img class="What-we-do-images-2" src="images/video.png" alt="video player icon">
+                    </div>
                     <span>Lorem ipsum</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="What-we-do-images-3">
-                    <img src="images/music.png" alt="musical note icon">
+                <div class="What-we-do-images-card">
+                    <div class="what-we-do-img-container">
+                        <img class="What-we-do-images-3" src="images/music.png" alt="musical note icon">
+                    </div>
                     <span>Lorem ipsum</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="What-we-do-images-4">
-                    <img src="images/hearing.png" alt="hearing icon">
+                <div class="What-we-do-images-card">
+                    <div class="what-we-do-img-container">
+                        <img class="What-we-do-images-4" src="images/hearing.png" alt="hearing icon">
+                    </div>
                     <span>Lorem ipsum</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
         </section>
-        <section class="our-results">
+        <section class="our-results" id="a11y-our-results">
             <div class="our-results-text">
                 <h1>Our results speak for themselves</h1>
                 <p>
@@ -86,7 +107,8 @@
                 <img src="images/pentagone-2percent.png" alt="image of a pentage with +2% written inside">
             </div>
         </section>
-        <section class="contact-us">
+
+        <section class="contact-us" id="a11y-contact-us">
             <h1>Contact us</h1>
             <form>
                 <input type="text" aria-label="Name" placeholder="Name" required>
@@ -96,9 +118,10 @@
             </form>
         </section>
     </main>
+
     <footer>
         <div class="logo-socials">
-            <a href="#"><img src="images/logo_headphones.png" alt="logo of the Headphones website"></a>
+            <a href="#"><img class="footer-logo" src="images/logo_headphones.png" alt="logo of the Headphones website"></a>
             <div class="footer-socials">
                 <a href="#"><img src="images/facebook.png" alt="logo of facebook"></a>
                 <a href="#"><img src="images/twitter.png" alt="logo of twitter"></a>

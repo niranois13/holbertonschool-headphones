@@ -352,7 +352,7 @@ main {
     margin-top: 110px;
 }
 
-.What-we-do-text h1 {
+.What-we-do-text h2 {
     font-family: var(--font-semibold);
     font-size: 32px;
     margin-bottom: 40px;
@@ -403,13 +403,13 @@ main {
 
 .What-we-do-images-card span {
     font-family: var(--font-semibold);
-    font-size: 18;
+    font-size: 18px;
     color: var(--color-black);
 }
 
 .What-we-do-images-card p {
     font-family: var(--font-regular);
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: var(--color-black);
 }
@@ -436,7 +436,7 @@ main {
     margin-top: 141px;
 }
 
-.our-results-text h1 {
+.our-results-text h2 {
     font-family: var(--font-semibold);
     font-size: 32px;
 }
@@ -470,7 +470,7 @@ main {
     color: var(--color-black);
 }
 
-.contact-us h1 {
+.contact-us h2 {
     font-family: var(--font-semibold);
     font-size: 32px;
 }
@@ -520,6 +520,7 @@ footer {
     background: var(--color-black);
     width: 100%;
     gap: 70px;
+    max-height: 249
 }
 
 .logo-socials {
@@ -662,6 +663,11 @@ footer p {
 
     .hero-text span {
         margin: 0 10.67% 20px 10.67%;
+    }
+
+    .What-we-do-text p {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .our-results {
